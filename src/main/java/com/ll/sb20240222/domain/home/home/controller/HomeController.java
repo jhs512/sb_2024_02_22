@@ -21,7 +21,7 @@ public class HomeController {
         // getHostName 메소드를 호출하여 호스트 이름을 얻습니다.
         String hostname = localHost.getHostName();
 
-        return "홈8, hostname : " + hostname;
+        return "홈9, hostname : " + hostname;
     }
 
     @GetMapping("/jwtSecretKey")
